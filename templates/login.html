@@ -1,0 +1,20 @@
+   <html>  
+       <body>  
+       
+       
+            <h1> {{ display_message }} </h1>
+           <form action=""http://localhost:5001/login" method="post">
+           
+             <table>  
+            <tr><td>Name</td>  
+            <td><input type ="text" name ="username"></td></tr>  
+            <tr><td>Password</td>  
+            <td><input type ="password" name ="password"></td></tr>
+           
+            <tr><td><input type = "submit" value="Login"></td></tr>  
+            <p> If you don't have an account , kindly Register fom here !  <a class="bottom" href="{{url_for('register')}}"> Register here</a></p>
+        
+        </table>  
+         </form> 
+       </body>  
+    </html>  
