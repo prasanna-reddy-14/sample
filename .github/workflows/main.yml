@@ -8,7 +8,7 @@ on:
 
 env:
   ECR_REGISTRY: 069800028030.dkr.ecr.us-east-1.amazonaws.com
-  ECR_REPOSITORY: repo3
+  ECR_REPOSITORY: reposaniya
 
 jobs:
   build:
